@@ -21,6 +21,7 @@ int main() {
         printf("3. Сумма четных цифр числа\n");
         printf("4. Сумма нечетных цифр числа\n");
         printf("5. Сортировка массива\n");
+        printf("6. Калькулятор больших чисел\n");
         printf("0. Выход\n\n");
         printf("Ваш выбор: ");
 
@@ -45,6 +46,9 @@ int main() {
             break;
         case 5:
             run_five();
+            break;
+        case 6:
+            run_six();
             break;
         case 0:
             printf("\nПрограмма завершена.\n");

@@ -28,6 +28,9 @@
     <Filter Include="five_module">
       <UniqueIdentifier>{a92a9d1e-7d4c-4d2c-bc7d-1bc13e0a6244}</UniqueIdentifier>
     </Filter>
+    <Filter Include="six_module">
+      <UniqueIdentifier>{873b7db2-4a5e-4b11-ae98-26c95e405aeb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="first.c">
@@ -48,6 +51,9 @@
     <ClCompile Include="five.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="six.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="first.h">
@@ -64,6 +70,9 @@
     </ClInclude>
     <ClInclude Include="five.h">
       <Filter>five_module</Filter>
+    </ClInclude>
+    <ClInclude Include="six.h">
+      <Filter>six_module</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
