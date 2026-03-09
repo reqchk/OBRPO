@@ -144,7 +144,7 @@ int* von_neumann_sort_recursive(int* arr, int n) {
 
 
 void run_five(void) {
-
+    printf("\n—ортировка массива\n\n");
     int n;
     printf("¬ведите количество чисел: ");
     scanf("%d", &n);

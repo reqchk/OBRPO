@@ -20,7 +20,7 @@ void run_third(void) {
     setlocale(LC_ALL, "ru");
 
 	int n;
-	printf("\nВывод суммы всех чётных цифр числа.\n\nВведите натуральное число: ");
+	printf("\nВывод суммы всех чётных цифр числа\n\nВведите натуральное число: ");
 	scanf_s("%d", &n);
 	printf("Итоговая сумма: ");
 	Summa_Chetn(n);
