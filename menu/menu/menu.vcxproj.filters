@@ -22,6 +22,12 @@
     <Filter Include="third_module">
       <UniqueIdentifier>{3ee07c33-3d75-4b10-972a-5308f9e99e8a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="four_module">
+      <UniqueIdentifier>{f3fb230a-3105-4df3-ba9c-3cbcbba9beb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="five_module">
+      <UniqueIdentifier>{a92a9d1e-7d4c-4d2c-bc7d-1bc13e0a6244}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="first.c">
@@ -36,6 +42,12 @@
     <ClCompile Include="main.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="four.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="five.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="first.h">
@@ -46,6 +58,12 @@
     </ClInclude>
     <ClInclude Include="third.h">
       <Filter>third_module</Filter>
+    </ClInclude>
+    <ClInclude Include="four.h">
+      <Filter>four_module</Filter>
+    </ClInclude>
+    <ClInclude Include="five.h">
+      <Filter>five_module</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -125,12 +125,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="first.c" />
+    <ClCompile Include="five.c" />
+    <ClCompile Include="four.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="second.c" />
     <ClCompile Include="third.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="first.h" />
+    <ClInclude Include="five.h" />
+    <ClInclude Include="four.h" />
     <ClInclude Include="second.h" />
     <ClInclude Include="third.h" />
   </ItemGroup>

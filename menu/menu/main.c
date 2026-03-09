@@ -5,6 +5,8 @@
 #include "first.h"
 #include "second.h"
 #include "third.h"
+#include "four.h"
+#include "five.h"
 
 int main() {
     setlocale(LC_ALL, "ru");
@@ -17,6 +19,8 @@ int main() {
         printf("1. Восьмеричный калькулятор\n");
         printf("2. Сортировка трех чисел\n");
         printf("3. Сумма четных цифр числа\n");
+        printf("4. Сумма нечетных цифр числа\n");
+        printf("5. Сортировка массива\n");
         printf("0. Выход\n\n");
         printf("Ваш выбор: ");
 
@@ -35,6 +39,12 @@ int main() {
             break;
         case 3:
             run_third();
+            break;
+        case 4:
+            run_four();
+            break;
+        case 5:
+            run_five();
             break;
         case 0:
             printf("\nПрограмма завершена.\n");
