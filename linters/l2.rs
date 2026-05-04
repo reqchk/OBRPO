@@ -1,22 +1,20 @@
 use std::io::{self,Write};
 
 fn main() {
-    println!("═══════════════════════════════");
-    println!("КАЛЬКУЛЯТОР С ПРОМЕЖУТОЧНЫМИ ВЫЧИСЛЕНИЯМИ");
-    println!("═══════════════════════════════");
+    println!("\nКАЛЬКУЛЯТОР С ПРОМЕЖУТОЧНЫМИ ВЫЧИСЛЕНИЯМИ\n");
     println!("Команды:");
-    println!("  <число>              - ввести число");
-    println!("  + <число>            - сложить");
-    println!("  - <число>            - вычесть");
-    println!("  * <число>            - умножить");
-    println!("  / <число>            - разделить");
-    println!("  c                    - очистить память");
-    println!("  exit                 - выйти");
+    println!("<число>              - ввести число");
+    println!("+ <число>            - сложить");
+    println!("- <число>            - вычесть");
+    println!("* <число>            - умножить");
+    println!("/ <число>            - разделить");
+    println!("c                    - очистить");
+    println!("exit                 - выйти");
     println!("\nТекущее значение: 0\n");
 
-    let mut memory: f64 = 0.0;
-    let count = 0; 
-    while true {
+    let mut memory = 0.0;
+    let count = 0; //неиницилизованная переменная
+    while true { //для rust лучше loop 
         print!("[{}] > ", memory);
         io::stdout().flush().unwrap();
 
@@ -24,7 +22,7 @@ fn main() {
         io::stdin().read_line(&mut input).unwrap();
         let input = input.trim();
 
-        if input.is_empty() == true{
+        if input.is_empty() == true{ //избыточность
             continue;
         }
         
@@ -37,6 +35,7 @@ fn main() {
             println!("Очищено");
             continue;
         }
+        
         
         let first = input.chars().next().unwrap();
         let num = &input[1..].trim();
